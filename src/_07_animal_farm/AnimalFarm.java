@@ -22,7 +22,18 @@ public class AnimalFarm {
 if (animal.equals("cow")) {
 playMoo();
 }
-	}
+if (animal.equals("duck")) {
+	playQuack();
+}
+if (animal.equals("wolf")) {
+	playWoof();
+}
+if (animal.contentEquals("cat")) {
+	playMeow();
+}
+if(animal.contentEquals("llama")) {
+	playLlama();}
+}
 static void playMoo() {
 	playNoise(mooFile);
 
